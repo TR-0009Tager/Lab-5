@@ -65,8 +65,8 @@ public class BouncyBall extends JPanel
 		int height = getHeight();
 
 		// Clear canvas
-		g.setColor(getBackground());
-		g.fillRect(0, 0, width, height);
+		//g.setColor(getBackground());
+		//g.fillRect(0, 0, width, height);
 
 		// Calculate new x anchor point value
 		x += xDelta;
